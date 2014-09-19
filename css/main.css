@@ -11,7 +11,7 @@
 
  	.slides {
  		height: 549px;
- 		background: url(img/hp_ferriswheel_2500x639.jpg);	
+ 		background: url(../img/hp_ferriswheel_2500x639.jpg);	
  	}
 
  	.contSlide {
@@ -29,7 +29,7 @@
 	}
 
 	.boxWrapper {
-	background: url(img/pic02.jpg);  
+	background: url(../img/pic02.jpg);  
 	}
 
 	.boxSuccess {
@@ -80,7 +80,7 @@
 		color: rgb(88, 89, 81);
 		text-decoration: none;
 		text-transform: uppercase;
-		font: 0.8em Arial;
+		font: 0.8em Arial "Helvetica Neue", Helvetica,  sans-serif;
 		font-weight: bold;
 		padding: 5px 10px 0 10px;
 	}
@@ -92,12 +92,12 @@
 /*Top search box */
 	
 	.searchBox {
-		width: 180px;
+		width: 183px;
 		height: 22px;
 		border: 1px solid lightgray;
 		border-radius: 5px;
 		color: #cc6;
-		float: left;
+		/*float: left;*/
 		margin: 46px 0 0 30px;
 	}
 
@@ -108,6 +108,7 @@
 		padding-left: 3px;
 		color: #585951;
 		cursor: pointer;
+		box-sizing: border-box;
 	 }
 	 
 	
@@ -132,7 +133,7 @@
 	 
 	 .langLogin {
 	 	list-style-type: none;
-	 	font: 1em Arial;
+	 	font: 1em Arial "Helvetica Neue", Helvetica,  sans-serif;
 	 	color:#585951;
 	 	width: 200px;
 	 	position: absolute;
@@ -168,7 +169,7 @@
  	/*Slides*/
 
  	.titleSlide {
-		font: 2.5em/42px Arial;
+		font: 2.5em/42px Arial "Helvetica Neue", Helvetica,  sans-serif;
 		color: #ffffff; 
 		text-shadow: 2px 2px 4px #000000; 
 		text-decoration: none;
@@ -176,7 +177,7 @@
 
 	.subTitleSlide {
 		font-size: 18px;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: Arial, "Helvetica Neue", Helvetica,  sans-serif;
 		color: #ffffff; 
 		text-decoration: 
 	}
@@ -318,7 +319,7 @@
 
 	.titleSection {
 			font-size: 42px;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 			color: #ffffff;  
 			text-transform: uppercase;
 			padding-top: 49px;
@@ -361,57 +362,57 @@
 	}
 	/*is there better solution for the below*/
 	.servicesBox .imgIcon0{
-		background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS.png) no-repeat ;
+		background: url(../img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon0:hover {
-		 background: url(img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS_hover.png); 
+		 background: url(../img/hp_solution_icon_BUSINESS_STIMULATION_ANALYTICS_hover.png); 
 	}
 
 	.servicesBox .imgIcon1{
-		background: url(img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE.png) no-repeat ;
+		background: url(../img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon1:hover {
-		 background: url(img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE_hover.png);  
+		 background: url(../img/hp_solution_icon_DIGITAL_CUSTOMER-EXPERIENCE_hover.png);  
 	}
 
 	.servicesBox .imgIcon2{
-		background: url(img/hp_solution_icon_SMART_MONETIZATION.png) no-repeat ;
+		background: url(../img/hp_solution_icon_SMART_MONETIZATION.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon2:hover {
-		 background: url(img/hp_solution_icon_SMART_MONETIZATION_hover.png);  
+		 background: url(../img/hp_solution_icon_SMART_MONETIZATION_hover.png);  
 	}
 	
 	.servicesBox .imgIcon3{
-		background: url(img/hp_solution_icon_OPTIMIZATION_EFFICIENCY.png) no-repeat ;
+		background: url(../img/hp_solution_icon_OPTIMIZATION_EFFICIENCY.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon3:hover {
-		 background: url(img/hp_solution_icon_OPTIMIZATION_EFFICIENCY_hover.png);  
+		 background: url(../img/hp_solution_icon_OPTIMIZATION_EFFICIENCY_hover.png);  
 	}
 	
 	.servicesBox .imgIcon4{
-		background: url(img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL.png) no-repeat ;
+		background: url(../img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon4:hover {
-		 background: url(img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL_hover.png);  
+		 background: url(../img/hp_solution_icon_PERSONALIZED_CHOICE_CONTROL_hover.png);  
 	}
 	
 	.servicesBox .imgIcon5{
-		background: url(img/hp_solution_icon_BUSINESS_TRANSFORMATION.png) no-repeat ;
+		background: url(../img/hp_solution_icon_BUSINESS_TRANSFORMATION.png) no-repeat ;
 		
 	}
 	
 	.servicesBox .imgIcon5:hover {
-		 background: url(img/hp_solution_icon_BUSINESS_TRANSFORMATION_hover.png);  
+		 background: url(../img/hp_solution_icon_BUSINESS_TRANSFORMATION_hover.png);  
 	}
 	
     /*Section Comverse's Solutions */
@@ -620,7 +621,7 @@
 	.bottomBox{
 		width: 800px;
 		height: 225px;
-		font: 1.75em Arial;
+		font: 1.75em Arial "Helvetica Neue", Helvetica,  sans-serif;
 		background: #000000;
 		color: #ffffff;
 	}
