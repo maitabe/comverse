@@ -105,10 +105,11 @@
 		border: none;
 		width: 145px;
 		float: left;
-		padding-left: 3px;
+		padding-left: 8px;
 		color: #585951;
 		cursor: pointer;
 		box-sizing: border-box;
+		outline: 0;
 	 }
 	 
 	
@@ -233,6 +234,22 @@
 		border: 1px solid lightgray;
 
 	}
+
+/* 
+
+.nav list {
+	list-style:none;
+	float:left;
+	margi-right:10px;
+}
+.slider li a {
+	backgound: silver; mastir
+	text-indent: -9999px;  needs to be minus number
+	display: block;
+	width:10px;  (width and height are necessary to make the link bigger y poder darle click)
+	height:10px;
+	current color?????
+ }*/
 
 	.sliderIcon li.active {
 		background:  #3399CC;
