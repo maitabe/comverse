@@ -61,6 +61,9 @@
 		background: url(../img/logoComverse.png) no-repeat top left;
 		text-indent: -9999px;
 		margin-top: 12px;
+		cursor: pointer;
+		z-index: 505;
+		position: absolute;
 	}
 
 	nav {
@@ -660,6 +663,7 @@
 
 	.socialLogos .linkedin:hover {
 		background: url(../img/shareMenuIcon03_hover.png) no-repeat;
+		cursor: pointer;
 	}
 
 	.socialLogos .youtube {
@@ -668,6 +672,7 @@
 
 	.socialLogos .youtube:hover {
 		background: url(../img/shareMenuIcon01_hover.png) no-repeat;
+		cursor: pointer;
 	}
 
 	.socialLogos .twitter {
@@ -676,6 +681,7 @@
 
 	.socialLogos .twitter:hover {
 		background: url(../img/shareMenuIcon02_hover.png) no-repeat;
+		cursor: pointer;
 	}
 
 	/*Copyright line*/
@@ -694,6 +700,7 @@
 		border-left: 1px solid #969696;
 		padding-left: 7px;
 		padding-right: 7px;
+		text-decoration: none;
 	}
 
 	.lastLine li:first-child {
@@ -701,9 +708,18 @@
 		border: none;
 	}
 
-	.lastLine li > a{
+	.lastLine li > a:link,
+	.lastLine li > a:visited,
+	.lastLine li > a:focus{
 		color: #969696;
+		text-decoration: none;
 	}
+
+	.lastLine li > a:hover {
+		color: #969696;
+		text-decoration: underline;
+	}
+
 
 /* ==========================================================================
    	Forms 
@@ -718,6 +734,7 @@
 		color: #cc6;
 		margin: 54px 0 0 30px;
 		float: right;
+
 	}
 
 	.searchBox > input {
@@ -729,6 +746,7 @@
 		cursor: pointer;
 		outline: 0;
 		padding-left: 5px;
+		overflow: hidden;
 	 }
 	 
 	 .searchBox > .divider {
