@@ -1244,6 +1244,59 @@ Responsive
 		margin-top: 20px;
 	}
 
+	.servicesBox li {
+		width: 99px;
+	}
+
+	.solutionsCom .solutionType li {
+		margin-left: 76px;
+		font-size: 0.8em;
+	}
+
+	.transparentBox {
+		width: 238px;
+	}
+
+	.eventList p {
+		width: 135px;
+		font-size: 1.3em;
+	}
+
+	.wrapBox {
+		width: 250px;
+		height: 160px;
+	}
+
+	.tinyWb {
+		width: 78px;
+		height: 78px;
+	}
+
+	.darkList {
+		height: 42px;
+	}
+
+	.bottomBox {
+		display: none;
+	}
+
+	.latestPress  {
+		display: none;
+	}
+
+	.lastLine {
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+
+	.blackArrow {
+		position: absolute;
+		top: -30px;
+		left: 774px;
+	}
+
+
 }
 
 @media only screen and (max-width: 767px)  {
