@@ -938,28 +938,72 @@
 		list-style-type: none;
 		display: inline-block;
 		float: left;
-		margin-left: 18px;
+		margin-left: 10px;
 		}	
+
+	.smallWrap .wrapBox {  
+		margin-bottom: 10px;
+	}
+
+	.bigWrap .wrapBox {  
+		margin-top: 10px;
+	}
 
 	.wrapBox {
 		width:340px;
 		height: 210px;
 		background: #ffffff;
-		/*border: 1px solid black;*/
 		list-style-type: none;
+		position: relative;
+		overflow: hidden;
 	}
 
-	/*.wrapBox.bottomPosition{
-		width:340px;
-		height: 210px;
-		background: #ffffff;
-		border: 1px solid black;
-		list-style-type: none;
-		position: absolute;
-		top: 0px;
-		left: 0px;
+	.wrapBox .front {
+			display:inline-block;
+			position: absolute;
+			z-index: 101;
+			width: 100%;
+			height: 100%;
+			background: white;
+			transition: transform 0.75s;
+	}
 
-	}*/
+	.wrapBox:hover .front {
+			transform: translateY(-212px);
+	}
+
+	.wrapBox .back {
+		display:inline-block;
+			position: absolute;
+			background: #2f95c8;
+			z-index: 95;
+			width: 100%;
+			height: 100%;
+	}
+
+	.tinyWb .front {
+		display:inline-block;
+		position: absolute;
+		z-index: 101;
+		width: 100%;
+		height: 100%;
+		background: white;
+		transition: transform 0.75s;
+	}
+
+	.tinyWb:hover .front {
+			transform: translateY(-212px);
+	}
+
+	/*.tinyWb .back {
+		display:inline-block;
+			position: absolute;
+			background: #2f95c8;
+			z-index: 95;
+			width: 100%;
+			height: 100%;
+	}
+*/
 
 	.wrapBox img{
 		width: 100px;
@@ -972,7 +1016,7 @@
 	.wrapBox blockquote {
 		width: 195px;
 		height: 112px;
-		font-size: 1.75em;
+		font-size: 1.2em;
 		padding: 18px 0 0 118px;
 		margin: 0;
 		color: #6D6D6D;
@@ -998,7 +1042,7 @@
 	.wBbelow p {
 	margin-bottom: 0px;
 	color: #6D6D6D;
-	font-size: 1.4em;
+	font-size: 1em;
 	line-height: 8px;
 	}
 
@@ -1011,9 +1055,9 @@
 		width: 100px;
 		height: 42px;
 		float: left;
-		/*padding-left: 20px;*/
-}
-	.wBTop {
+	}
+
+	.wBTop {  
 		width: 302px;
 		height: 130px;
 		margin: 0 auto;
@@ -1033,51 +1077,55 @@
 		list-style-type: none;
 		position:relative;
 		display: inline-block;
+		margin: 0px 5px 0px 0px;
+		overflow: hidden;
 	}
 
-	.tinyWb .front0 {
-		width: 108px;
-		height: 96px;
-		position: absolute;
-		top: 10px;
-		left: 0;
-	}
-
-	.tinyWb .front1 {
-		position: absolute;
-		top: 10px;
-		left: 5px;
-	}
-
-	.tinyWb .front2 {
-		position: absolute;
-		top: 10px;
-		left: 10px;
-	}
-
-	.tinyWb .front0{
-		position: absolute;
-		top: 10px;
-		left: 0;
-	}
-	/*.tinyWbBack:hover {
-		width: 108px;
-		height: 96px;
-		transform: translateY(-94px);
-	}*/
+	
 
 	.wrapBoxSmall {
-		width:216px;
-		height: 210px;
-		border: 1px solid black;
+		width: 222px;
+		height: 213px;
 		background: #ffffff;
 		color: #6D6D6D;
+		margin-bottom: 10px;
+		overflow: hidden;
+		
 	}
+
+	.wrapBoxSmall .front {
+		width: 222px;
+		height: 213px;
+		display:inline-block;
+		position: absolute;
+		z-index: 101;
+		background: white;
+		transition: transform 0.75s;
+	}
+
+	.wrapBoxSmall:hover .front {
+			transform: translateY(-212px);
+	}
+
+	.wrapBoxSmall .back {
+		display:inline-block;
+		position: absolute;
+		background: #2f95c8;
+		z-index: 95;
+		width: 222px;
+		height: 213px;
+	}
+
 
 	.wrapBoxSmall .wBTop {
 		width: 195px;
 		height: 112px;
 		font-size: 1.5em;
+		float: left;
+	}
+
+	.wrapBoxSmall .back .wBTop > blockquote {
+		font-size: 0.75em;
 	}
 
 	.wrapBoxSmall .wBbelow {
